@@ -28,15 +28,21 @@ public class Hero {
 	
 	//Private method +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	private void generateAbilities() {
-		
+		this.strength= (int) (Math.random()*100 +1); 
+		this.speed = (int) (Math.random()*100 +1);
+		this.health = (int) (Math.random()*100 +1);
+	}
+	
+	public void showAbilities() {
+		System.out.printf("Strength:%d Speed:%d Health:%d", this.strength, this.speed,  this.health);
 	}
 	
 	public void fight() {
-		
+		System.out.println(this.name+" is Fighting ");
 	}
 	
 	public void train() {
-		
+		System.out.println(this.name+" is Training");
 	}
 	
 	public void run() {
