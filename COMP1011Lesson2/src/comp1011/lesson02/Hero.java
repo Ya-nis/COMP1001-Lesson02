@@ -34,7 +34,7 @@ public class Hero {
 	}
 	
 	public void showAbilities() {
-		System.out.printf("Strength:%d Speed:%d Health:%d", this.strength, this.speed,  this.health);
+		System.out.printf(this.name+":: Strength:%d Speed:%d Health:%d\n", this.strength, this.speed,  this.health);
 	}
 	
 	public void fight() {

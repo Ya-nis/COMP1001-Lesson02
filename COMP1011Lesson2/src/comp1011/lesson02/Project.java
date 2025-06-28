@@ -6,6 +6,8 @@ public class Project {
 		Hero hero = new Hero("Big Man");
 		hero.showAbilities();
 
+		Villain villain = new Villain("Sly Man");
+		villain.showAbilities();
 	}
 
 }
